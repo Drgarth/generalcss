@@ -157,3 +157,113 @@ margin-top: 4vmax;
 }
 
 
+
+.acf-button.button {
+display: inline-block;
+text-decoration: none;
+font-size: 13px;
+line-height: 2.15384615;
+min-height: 30px;
+margin: 0;
+padding: 0 10px;
+cursor: pointer;
+border-width: 1px;
+border-style: solid;
+-webkit-appearance: none;
+border-radius: 3px;
+white-space: nowrap;
+box-sizing: border-box;
+background: #2271b1;
+border-color: #2271b1;
+color: #fff;
+text-decoration: none;
+text-shadow: none;
+min-height: 32px;
+line-height: 2.30769231;
+padding: 0 12px;
+}
+
+.acf-button.button:hover {
+    background: #135e96;
+border-color: #135e96;
+color: #fff;
+}
+
+
+
+.acf-field p.description {
+ word-break:break-word;
+ font-size: 12px;
+ color: #9d9d9d;
+}
+
+
+.acf-icon.-pencil.dark {
+  display: none !important;
+}
+
+.active {
+}
+
+.acf-tab-button {
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+
+.acf-tab-group .active .acf-tab-button {
+  background-color: var(--primary-color) !important;
+  color: white;
+}
+
+.acf-tab-button {
+  background-color: white !important;
+  color: var(--primary-color) !important;
+}
+
+.acf-tab-group .active .acf-tab-button {
+  /* color: white; */
+  color: white !important;
+}
+
+.acf-tab-button {
+  border-bottom: 0px !important;
+  box-shadow: 0 0 10px rgba(0,0,0,.1);
+}
+
+.acf-hl.acf-tab-group {
+  background-color: transparent !important;
+}
+
+.acf-tab-wrap.-top {
+  background: transparent !important;
+}
+
+.acf-tab-wrap.-top {
+  border-bottom: 0px !important;
+}
+
+.acf-hl.acf-tab-group {
+  border-bottom: 0px;
+}
+
+/* acf-input.css | https://electrician.byblostech.com/wp-content/plugins/advanced-custom-fields-pro/assets/css/acf-input.css?ver=5.9.5 */
+
+.acf-tab-group li {
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+
+.acf-fields > .acf-tab-wrap .acf-tab-group {
+  /* border-bottom: #ccd0d4 solid 1px; */
+  border-bottom: none;
+}
+
+.acf-tab-group li a {
+  /* border: #ccc solid 1px; */
+}
+textarea, input {
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+
